@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+  z-index: 100;
+    position: relative !important; 
+    top: 0;
+  height: 80px;
+  .container{
+  position: relative;
+    top: -50px;
+  
+    .container-fluid{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .fiverr{
+        position: relative;
+        right: 20px; 
+        height:35px;
+        top: 5px;
+        margin-bottom: 15px;
+        color: white;
+      }
+      .fiverr.hover{
+        color: black;
+      }
+      .fiverrSearch{
+        position: relative; 
+  left: 13px;
+  width: 600px; 
+  height:44px;
+  opacity: 0;
+  z-index: -1;
+      }
+      .fiverrSearch.hover{
+        position: relative; 
+  left: 13px;
+  width: 600px; 
+  font-size: 20px;
+  height:44px;
+  opacity: 1;
+  z-index: 1;
+      }
+      .searchIcon{
+        background-color: black;
+        color: white; 
+        border-radius: 3px;
+        width:45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 12px;
+        opacity: 0;
+      }
+      .searchIcon.hover{
+        opacity: 1;
+      }
+  .navbar-nav{
+      position: relative; 
+      left: 8%;
+  
+          li{
+            .nav-link{
+              color: white;
+             
+            }
+             .nav-link.hover{
+                color: black;
+              }
+          }
+          button{
+            &:hover{
+              background-color: green;
+              transition: 0.4s;
+              color: white;
+            }
+          }
+  }
+      .button{
+  width: 70px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+  }
+      .button.hover{
+    color: green;
+    border-color: green;
+  }
+  }
+  
+  .small{
+    opacity: 1;
+    z-index: 100;
+    position:relative !important; 
+  margin-bottom: 8px;
+  .container-fluid-mini{
+    position: relative; 
+  
+      color: black;
+  
+  
+  
+  .mini{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+    height: 50px;
+    color: black;
+  font-size: 17px;
+  width: 126%;
+  background-color: transparent;
+  position: relative;
+  right: 100px;
+  
+  .link{
+    &:hover{
+      border-bottom: 2px solid rgb(13, 190, 13);
+    }
+  }
+  }
+  
+  div{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+  }
+  }
+  .small.hover{
+      background-color: white;
+      position: fixed !important; 
+      margin-top: 140px;
+      width: 100%;
+      opacity: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+  
+        transition: 0.5s;
+  }
+  }
+  }
+  .nav.hover{
+     background-color: white;
+     transition: 0.5s;
+  }

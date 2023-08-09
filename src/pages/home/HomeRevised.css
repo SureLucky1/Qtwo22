@@ -1,0 +1,2373 @@
+html {
+    height: 100%;
+    width: 100vw;
+}
+
+.first,
+.secondRow,
+.fourthRow,
+.six,
+.seven,
+.eight,
+.nine,
+.ten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.first .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 65px !important;
+    position: relative;
+    top: 30px;
+    width: 45%;
+}
+
+.first .container img {
+    margin-left: -0px !important;
+    width: 40%;
+    height: 480px;
+}
+
+.first .container div .Input {
+    width: 117%;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.first .container div input {
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.first .container div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    right: 75px;
+    height: 0px;
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: #f2f4f8;
+}
+
+.first .container div .spann span {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 160px;
+
+}
+
+.first .container div .spann div span {
+    border: 2px solid white;
+    width: 140px;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 220px;
+    border-radius: 25px;
+}
+
+.first .container div div div span:hover {
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.first .container div,
+.first .container img {
+    margin: 70px 70px;
+}
+
+.secondRow {
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+}
+
+.secondRow img {
+    margin: 0px 35px;
+
+}
+
+.thirdRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100vw;
+    position: relative;
+    bottom: 20px;
+    padding-right: 10%;
+}
+
+.thirdRow .container {
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+.fourthRow {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+}
+
+.fourthRow .container {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.fourthRow .container div {
+    width: 40vw;
+    height: 400px
+}
+
+.fourthRow .container div div p {
+    font-size: 20px;
+}
+
+.fourthRow .container div div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+}
+
+.fourthRow .container embed {
+    margin-right: 0vw;
+    position: relative;
+    left: 40px !important;
+    width: 60vw;
+    height: 450px;
+    overflow: hidden;
+}
+
+.fiveRow .container {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fiveRow .container h1 {
+    text-align: flex-start;
+}
+
+.fiveRow .container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.fiveRow .container div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.fiveRow .container div div div {
+    width: 50px;
+    height: 75px;
+    border-bottom: 2px solid rgb(207, 200, 200);
+
+}
+
+.fiveRow .container div div div:hover {
+    width: 95px;
+    border-bottom: 2px solid rgb(89, 180, 15);
+    transition: 0.3s;
+}
+
+.six {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 4, 100);
+    color: white;
+    width: 100vw;
+}
+
+.six .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 600px;
+}
+
+.six .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0px;
+    width: 45vw;
+}
+
+.six .container div button {
+    bottom: 60px;
+    position: relative;
+
+}
+
+.six .container div div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.six div p {
+    font-size: 20px;
+}
+
+.six div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.six div div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.six div button {
+    margin-top: 100px;
+    padding: 15px 30px;
+    margin-bottom: 70px;
+    background-color: rgb(59, 197, 112);
+    color: white;
+}
+
+.six div button:hover {
+    opacity: 0.8;
+}
+
+.eight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.eight .container div {
+    left: 50px;
+    position: relative;
+}
+
+.eight .container div h3 {
+    margin: 30px 0px;
+}
+
+.eight .container div p {
+    font-size: 20px;
+}
+
+.eight .container div button {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: blue;
+}
+
+.eight .container div button:hover {
+    opacity: 0.7;
+}
+
+.nine {
+    margin-top: 50px;
+    position: relative;
+    bottom: 70px;
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    padding-right: 1%;
+    padding-left: 1vw;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100vw;
+}
+
+.nine .container {
+    padding-top: 20px 0px;
+    padding-bottom: 110px;
+    position: relative;
+    right: 70px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ten {
+    padding: 80px 0px;
+    position: relative;
+    bottom: 110px;
+}
+
+.ten .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ten .container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.ten .container div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.eleven {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 130px;
+}
+
+.eleven .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eleven .container div h2 {
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.eleven .container div button {
+    font-size: 25px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.center {
+
+    position: relative;
+
+    left: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    html {
+        height: 100%;
+        width: 100vw;
+    }
+
+    .first,
+    .secondRow,
+    .fourthRow,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .first .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+
+    .first .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 65px !important;
+        position: relative;
+        top: 30px;
+        width: 45vw;
+    }
+
+    .first .container img {
+        margin-left: -0px !important;
+        width: 40vw;
+        height: 480px;
+    }
+
+    .first .container div .Input {
+        width: 117%;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    .first .container div input {
+        width: 80%;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .first .container div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        right: 75px;
+        height: 0px;
+        position: relative;
+        bottom: 100px;
+        font-size: 20px;
+        color: #f2f4f8;
+    }
+
+    .first .container div .spann span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 160px;
+
+    }
+
+    .first .container div .spann div span {
+        border: 2px solid white;
+        width: 140px;
+        font-size: 15px;
+        padding: 3px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 220px;
+        border-radius: 25px;
+    }
+
+    .first .container div div div span:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .first .container div,
+    .first .container img {
+        margin: 70px 70px;
+    }
+
+    .secondRow {
+        margin: 30px 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+    }
+
+    .secondRow img {
+        margin: 0px 35px;
+
+    }
+
+    .thirdRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        width: 80vw;
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+
+    }
+
+    .thirdRow .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        width: 100vw;
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+
+    }
+
+    .fourthRow {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+    }
+
+    .fourthRow .container {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .fourthRow .container div {
+        width: 40vw;
+        height: 400px
+    }
+
+    .fourthRow .container div div p {
+        font-size: 20px;
+    }
+
+    .fourthRow .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30px;
+    }
+
+    .fourthRow .container embed {
+        margin-right: 3vw;
+        position: relative;
+        left: 20px;
+        width: 100vw;
+        height: 450px;
+    }
+
+    .fiveRow .container {
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .fiveRow .container h1 {
+        text-align: flex-start;
+    }
+
+    .fiveRow .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .fiveRow .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .fiveRow .container div div div {
+        width: 50px;
+        height: 75px;
+        border-bottom: 2px solid rgb(207, 200, 200);
+
+    }
+
+    .fiveRow .container div div div:hover {
+        width: 95px;
+        border-bottom: 2px solid rgb(89, 180, 15);
+        transition: 0.3s;
+    }
+
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 4, 100);
+        color: white;
+        width: 100vw;
+    }
+
+    .six .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        height: 600px;
+    }
+
+    .six .container div button {
+        bottom: 60px;
+        position: relative;
+
+    }
+
+    .six .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .six .container p {
+        font-size: 20px;
+    }
+
+    .six .container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-right: 70px;
+        width: 50vw;
+    }
+
+    .six .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .six .container button {
+        margin-top: 100px;
+        padding: 15px 30px;
+        margin-bottom: 70px;
+        background-color: rgb(59, 197, 112);
+        color: white;
+    }
+
+    .six .container button:hover {
+        opacity: 0.8;
+    }
+
+    .eight {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .eight .container div {
+        left: 50px;
+        position: relative;
+        width: 100vw !important;
+    }
+
+    .eight .container div h3 {
+        margin: 30px 0px;
+    }
+
+    .eight .container div p {
+        font-size: 20px;
+    }
+
+    .eight .container div button {
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: blue;
+    }
+
+    .eight .container div button:hover {
+        opacity: 0.7;
+    }
+
+    .nine {
+        margin-top: 50px;
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(240, 239, 239);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nine .container {
+        padding-top: 20px 0px;
+        padding-bottom: 110px;
+        position: relative;
+        margin: 0vw 2vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .ten {
+        padding: 80px 0px;
+        position: relative;
+        bottom: 110px;
+    }
+
+    .ten .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ten .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10px 0px;
+        width: 80vw;
+    }
+
+    .ten .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 15px;
+    }
+
+    .eleven {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .eleven .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .eleven .container div h2 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+
+    .eleven .container div button {
+        font-size: 25px;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+
+    .center {
+
+        position: relative;
+
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    html {
+        height: 100%;
+        width: 100vw;
+    }
+
+    .first,
+    .secondRow,
+    .fourthRow,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+
+    .first .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 65px !important;
+        position: relative;
+        top: 30px;
+        width: 45vw;
+    }
+
+    .first .container img {
+        margin-left: -0px !important;
+        width: 40vw;
+        height: 480px;
+    }
+
+    .first .container div .Input {
+        width: 117%;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    .first .container div input {
+        width: 80%;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .first .container div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        right: 75px;
+        height: 0px;
+        position: relative;
+        bottom: 100px;
+        font-size: 20px;
+        color: #f2f4f8;
+    }
+
+    .first .container div .spann span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 160px;
+
+    }
+
+    .first .container div .spann div span {
+        border: 2px solid white;
+        width: 140px;
+        font-size: 15px;
+        padding: 3px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 220px;
+        border-radius: 25px;
+    }
+
+    .first .container div div div span:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .first .container div,
+    .first .container img {
+        margin: 70px 70px;
+    }
+
+    .secondRow {
+        margin: 30px 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+    }
+
+    .secondRow img {
+        margin: 0px 35px;
+
+    }
+
+    .thirdRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        width: 95vw;
+        position: relative;
+        bottom: 20px;
+        right: 3vw;
+
+    }
+
+    .thirdRow .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start !important;
+        margin: 50px 0px;
+        width: 100vw;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .fourthRow {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100vw;
+    }
+
+    .fourthRow .containerr {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .fourthRow .containerr div {
+        width: 40vw;
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .fourthRow .containerr div div p {
+        font-size: 20px;
+    }
+
+    .fourthRow .containerr div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30px;
+    }
+
+    .fourthRow .containerr embed {
+        margin-right: 10px;
+        position: relative;
+        left: 5px !important;
+        width: 53vw !important;
+        height: 450px;
+    }
+
+    .fiveRow .container {
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .fiveRow .container h1 {
+        text-align: flex-start;
+    }
+
+    .fiveRow .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .fiveRow .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .fiveRow .container div div div {
+        width: 50px;
+        height: 75px;
+        border-bottom: 2px solid rgb(207, 200, 200);
+
+    }
+
+    .fiveRow .container div div div:hover {
+        width: 95px;
+        border-bottom: 2px solid rgb(89, 180, 15);
+        transition: 0.3s;
+    }
+
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 4, 100);
+        color: white;
+        width: 100vw;
+    }
+
+    .six .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        height: 600px;
+    }
+
+    .six .container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 10px;
+        width: 45vw;
+    }
+
+    .six .container div button {
+        bottom: 60px;
+        position: relative;
+
+    }
+
+    .six .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .six div p {
+        font-size: 20px;
+    }
+
+    .six div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .six div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .six div button {
+        margin-top: 100px;
+        padding: 15px 30px;
+        margin-bottom: 70px;
+        background-color: rgb(59, 197, 112);
+        color: white;
+    }
+
+    .six div button:hover {
+        opacity: 0.8;
+    }
+
+    .eight {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .eight .container div {
+        left: 50px;
+        position: relative;
+    }
+
+    .eight .container div h3 {
+        margin: 30px 0px;
+    }
+
+    .eight .container div p {
+        font-size: 20px;
+    }
+
+    .eight .container div button {
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: blue;
+    }
+
+    .eight .container div button:hover {
+        opacity: 0.7;
+    }
+
+    .nine {
+        margin-top: 50px;
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(240, 239, 239);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 20% !important;
+    }
+
+    .nine .container {
+        padding-top: 20px 0px;
+        padding-bottom: 110px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .ten {
+        padding: 80px 0px;
+        position: relative;
+        bottom: 110px;
+    }
+
+    .ten .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ten .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+    .ten .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 15px;
+    }
+
+    .eleven {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .eleven .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .eleven .container div h2 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+
+    .eleven .container div button {
+        font-size: 25px;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+
+    .center {
+
+        position: relative;
+
+        left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .first {
+        width: 100%;
+        padding: 0px 10% !important;
+    }
+
+    .first .container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        height: 100%;
+        width: 70vw !important;
+    }
+
+    .first .container div h1 {
+        color: white;
+        font-size: 34px;
+        width: 100%;
+    }
+
+    .first .container div .Input {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        right: 70px;
+    }
+
+    .first .container div .Input input {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .first .container div .Input div {
+        position: relative;
+        left: 0px;
+        top: -60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px !important;
+        background-color: green;
+        font-size: 40px;
+    }
+
+    .first .container div .spann span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 160px;
+
+    }
+
+    .first .container div .spann div span {
+        border: 2px solid white;
+        width: 140px;
+        font-size: 15px;
+        padding: 3px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 220px;
+        border-radius: 25px;
+    }
+
+    .first .container div div div span:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .first .container div {
+        margin: 70px 70px;
+    }
+
+    .fourthRow .containerr {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .fourthRow .containerr div.innercontainer {
+        width: 100vw !important;
+        height: 300px;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .fourthRow .containerr div div p {
+        font-size: 20px;
+        width: 100vw !important;
+    }
+
+    .fourthRow .containerr div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30px;
+        width: 100%;
+    }
+
+    .fourthRow .containerr embed {
+        position: relative;
+        left: -0px !important;
+        width: 90vw !important;
+        height: 400px;
+    }
+
+    .Seven .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .ten {
+        padding: 80px 0px;
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .ten div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100vw;
+    }
+
+    .ten div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 13px;
+        width: 45vw;
+
+    }
+
+    .eleven {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .eleven div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: brown;
+        margin: 0px 20px;
+    }
+
+    .eleven div div h2 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+
+    .eleven div div button {
+        font-size: 25px;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        height: 100%;
+        width: 100vw;
+    }
+
+    .first,
+    .secondRow,
+    .fourthRow,
+    .six,
+    .Seven,
+    .eight,
+    .nine,
+    .ten {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first {
+        width: 100%;
+        padding: 0px 10% !important;
+    }
+
+    .first .container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        height: 100%;
+        width: 70vw !important;
+    }
+
+    .first .container div h1 {
+        color: white;
+        font-size: 34px;
+        width: 100%;
+    }
+
+    .first .container div .Input {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        right: 70px;
+    }
+
+    .first .container div .Input input {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .first .container div .Input div {
+        position: relative;
+        left: 0px;
+        top: -60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px !important;
+        background-color: green;
+        font-size: 40px;
+    }
+
+    .first .container div .spann span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 160px;
+
+    }
+
+    .first .container div .spann div span {
+        border: 2px solid white;
+        width: 140px;
+        font-size: 15px;
+        padding: 3px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 220px;
+        border-radius: 25px;
+    }
+
+    .first .container div div div span:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .first .container div {
+        margin: 70px 70px;
+    }
+
+    .secondRow {
+        margin: 30px 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+    }
+
+    .secondRow img {
+        margin: 0px 10px;
+
+    }
+
+    .thirdRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 50px 0px;
+        width: 95vw;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .thirdRow .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start !important;
+        margin: 50px 0px;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+
+    /* .thirdRow .container h1 {
+    position: relative;
+    left: -50px;
+  } */
+
+    .fourthRow .container {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .fourthRow .container div.innercontainer {
+        width: 95vw !important;
+        height: 300px;
+        position: relative;
+        bottom: 80px;
+        margin-bottom: 100px;
+    }
+
+    .fourthRow .container div div p {
+        font-size: 20px;
+        width: 90vw !important;
+    }
+
+    .fourthRow .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30px;
+        width: 100%;
+    }
+
+    .fourthRow .container embed {
+        position: relative;
+        left: -20px !important;
+        width: 90vw;
+        height: 400px;
+    }
+
+    .fiveRow .container {
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 110%;
+    }
+
+    .fiveRow .container h1 {
+        text-align: flex-start;
+    }
+
+    .fiveRow .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .fiveRow .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 18px;
+        width: 170px;
+    }
+
+    .fiveRow .container div div div {
+        width: 50px;
+        height: 75px;
+        border-bottom: 2px solid rgb(207, 200, 200);
+
+    }
+
+    .fiveRow .container div div div:hover {
+        width: 95px;
+        border-bottom: 2px solid rgb(89, 180, 15);
+        transition: 0.3s;
+    }
+
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 4, 100);
+        color: white;
+    }
+
+    .six .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        height: auto;
+    }
+
+    .six .container div.sixInner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .six .container div button {
+        bottom: 60px;
+        position: relative;
+
+    }
+
+    .six .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .six div p {
+        font-size: 20px;
+    }
+
+    .six div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .six div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .six div button {
+        margin-top: 100px;
+        padding: 15px 30px;
+        margin-bottom: 70px;
+        background-color: rgb(59, 197, 112);
+        color: white;
+    }
+
+    .six div button:hover {
+        opacity: 0.8;
+    }
+
+    .eight {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .eight .container div {
+        left: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100vw;
+    }
+
+
+    .eight .container div h3 {
+        margin: 30px 0px;
+    }
+
+    .eight .container div p {
+        font-size: 20px;
+    }
+
+    .eight .container div button {
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: blue;
+    }
+
+    .eight .container div button:hover {
+        opacity: 0.7;
+    }
+
+    .nine {
+        margin-top: 50px;
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(240, 239, 239);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        padding-right: 31vw !important;
+
+    }
+
+    .nine .container {
+        padding-top: 20px 0px;
+        padding-bottom: 110px;
+        position: relative;
+        right: 2.5vw;
+        display: flex;
+
+        margin-right: 15vw !important;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+    }
+
+    .ten {
+        padding: 80px 0px;
+        position: relative;
+        bottom: 110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ten div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100vw;
+    }
+
+    .ten div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: 0px 13px;
+        width: 45vw;
+
+    }
+
+    .eleven {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .eleven div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: brown;
+        margin: 0px 20px;
+    }
+
+    .eleven div div h2 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+
+    .eleven div div button {
+        font-size: 25px;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+
+    .center {
+
+        position: relative;
+
+        left: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    .first,
+    .secondRow,
+    .fourthRow,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .first .container div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        height: 100%;
+        width: 90vw !important;
+    }
+
+    .first .container div h1 {
+        color: white;
+        font-size: 34px;
+        width: 100%;
+    }
+
+    .first .container div .Input {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        right: 70px;
+    }
+
+    .first .container div .Input input {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .first .container div .Input div {
+        position: relative;
+        left: 0px;
+        top: -60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px !important;
+        background-color: green;
+        font-size: 40px;
+    }
+
+    .first .container div .spann span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 160px;
+
+    }
+
+    .first .container div .spann div span {
+        border: 2px solid white;
+        width: 140px;
+        font-size: 15px;
+        padding: 3px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 220px;
+        border-radius: 25px;
+    }
+
+    .first .container div div div span:hover {
+        color: black;
+        background-color: white;
+        transition: 0.4s;
+    }
+
+    .first .container div,
+    .first .container img {
+        margin: 70px 70px;
+    }
+
+    .secondRow {
+        margin: 30px 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+        overflow: hidden;
+    }
+
+    .secondRow img {
+        margin: 0px 10px;
+
+    }
+
+    .thirdRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+        overflow: hidden;
+    }
+
+    .fourthRow {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        height: 1000px;
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    .fourthRow .container {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fourthRow .container div.innercontainer {
+        width: 90vw;
+        height: 600px;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        margin-bottom: 40px !important;
+    }
+
+    .fourthRow .container .innercontainer div {
+        width: 90vw;
+        height: auto;
+
+    }
+
+    .fourthRow .container div div p {
+        font-size: 20px;
+        width: 100% !important;
+    }
+
+    .fourthRow .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        /*沒有impoortant會令效果失效*/
+        height: auto !important;
+        width: 100%;
+    }
+
+    .fourthRow .container embed {
+        bottom: 70px;
+        position: relative;
+        left: -120px;
+        width: 100vw;
+        height: 400px;
+    }
+
+    .fiveRow .container {
+        padding: 80px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 110%;
+    }
+
+    .fiveRow .container h1 {
+        text-align: flex-start;
+    }
+
+    .fiveRow .container div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .fiveRow .container div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 18px;
+        width: 170px;
+    }
+
+    .fiveRow .container div div div {
+        width: 50px;
+        height: 75px;
+        border-bottom: 2px solid rgb(207, 200, 200);
+
+    }
+
+    .fiveRow .container div div div:hover {
+        width: 95px;
+        border-bottom: 2px solid rgb(89, 180, 15);
+        transition: 0.3s;
+    }
+
+    .six {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 4, 100);
+        color: white;
+        overflow: hidden;
+    }
+
+    .six .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        height: auto;
+    }
+
+    .six .container div.sixInner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .six .container div button {
+        bottom: 60px;
+        position: relative;
+
+    }
+
+    .six .container div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .six div p {
+        font-size: 20px;
+    }
+
+    .six div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .six div div div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .six div button {
+        margin-top: 100px;
+        padding: 15px 30px;
+        margin-bottom: 70px;
+        background-color: rgb(59, 197, 112);
+        color: white;
+    }
+
+    .six div button:hover {
+        opacity: 0.8;
+    }
+
+    .eight {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .eight .container div {
+        left: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+
+    .eight .container div h3 {
+        margin: 30px 0px;
+    }
+
+    .eight .container div p {
+        font-size: 20px;
+    }
+
+    .eight .container div button {
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: blue;
+    }
+
+    .eight .container div button:hover {
+        opacity: 0.7;
+    }
+
+    .nine {
+        margin-top: 50px;
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(240, 239, 239);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .nine .container {
+        padding-top: 20px 0px;
+        padding-bottom: 110px;
+        position: relative;
+        right: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .ten {
+        padding: 80px 0px;
+        position: relative;
+        bottom: 110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .ten div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10px 0px;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    .ten div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .eleven {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        bottom: 130px;
+        overflow: hidden;
+    }
+
+    .eleven div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: brown;
+        margin: 0px 20px;
+    }
+
+    .eleven div div h2 {
+        font-size: 50px;
+        margin: 30px 0px;
+    }
+
+    .eleven div div button {
+        font-size: 25px;
+        padding: 5px 25px;
+        border-radius: 5px;
+    }
+
+    .center {
+
+        position: relative;
+
+        left: 50px;
+    }
+}

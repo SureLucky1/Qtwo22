@@ -1,0 +1,342 @@
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  max-width: 100vw;
+  height: 100%;
+  font-size: 10px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .Footer {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+
+      .item {
+
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-between;
+        align-content: flex-start;
+        max-width: 100vw;
+        flex-wrap: wrap;
+
+        div {
+          width: 13vw;
+          margin-left: 0.15vw;
+
+          h6 {
+            font-size: 1.3rem;
+            margin: 20px 0px;
+            color: rgb(151, 150, 150);
+            color: black;
+          }
+
+          h4 {
+            font-size: 1.17rem;
+            margin: 20px 0px;
+            color: rgb(151, 150, 150);
+          }
+        }
+      }
+    }
+
+    .footer {
+      max-width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+
+      .title {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+
+        h5 {
+          font-size: 28px;
+          color: rgb(109, 108, 108);
+        }
+
+        h6 {
+          margin-top: 9.5px;
+          color: rgb(189, 189, 189);
+        }
+      }
+
+      .footerInner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 50vw !important;
+
+        .Icon {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          max-width: 100vw;
+          margin-right: 30px;
+          font-size: 23px;
+
+          .iconItem {
+            margin: 0.8vw !important;
+          }
+        }
+
+        .Other {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          max-width: 100vw;
+          font-size: 20px;
+
+          h5 {
+            width: 10vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    max-width: 100vw;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+
+      .Footer {
+        margin-top: 50px;
+
+        .item {
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-content: flex-start;
+          flex-wrap: wrap;
+          width: 100vw;
+          position: relative;
+          left: 40px;
+
+          div {
+            width: 30vw;
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 18px;
+
+            h4 {
+              font-size: 17px;
+              margin: 20px 0px;
+              color: rgb(151, 150, 150);
+            }
+          }
+        }
+      }
+
+      .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        height: 120px;
+        top: 10px;
+        position: relative;
+        left: 0px;
+
+        .title {
+          width: 50%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-content: center;
+          position: relative;
+          right: 20px;
+
+          h5 {
+            font-size: 28px;
+            color: rgb(109, 108, 108);
+          }
+
+          h6 {
+            margin-top: 9.5px;
+            color: rgb(189, 189, 189);
+          }
+        }
+
+        .footerInner {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          width: 100% !important;
+          margin-top: 20px;
+
+          .Icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            max-width: 100vw;
+            margin-right: 30px;
+            font-size: 23px;
+            position: relative;
+            right: 30px;
+
+            .iconItem {
+              width: 5vw;
+            }
+          }
+
+          .Other {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100vw !important;
+            position: relative;
+            left: 0px;
+            font-size: 18px;
+
+
+            h5 {
+              padding-top: 5px;
+              margin-left: 10px;
+              font-size: 20px;
+              width: 15vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100vw !important;
+
+
+    .container {
+      display: flex;
+      height: auto !important;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center !important;
+
+      .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        height: auto;
+        font-size: 18px;
+
+        .footItem {
+          margin: 10px 0px !important;
+        }
+      }
+
+      .footer {
+        width: 100vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center !important;
+        height: auto;
+
+        .title {
+          width: 100vw !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: center !important;
+          align-content: center !important;
+          position: relative;
+          left: 15px;
+
+          h5 {
+            font-size: 28px;
+            color: rgb(109, 108, 108);
+          }
+
+          h6 {
+            margin-top: 9.5px;
+            color: rgb(189, 189, 189);
+          }
+        }
+
+        .footerInner {
+          display: flex;
+          flex-direction: column !important;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          position: relative;
+          left: 1vw;
+
+          .Icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center !important;
+            align-items: center;
+            width: 100%;
+            margin-right: 30px;
+            font-size: 23px;
+            position: relative;
+
+            .iconItem {
+              margin-left: 30px;
+            }
+          }
+
+          .Other {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            position: relative;
+            height: 80px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            left: -4vw !important;
+
+            h5 {
+              font-size: 20px;
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

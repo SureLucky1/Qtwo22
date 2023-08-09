@@ -1,0 +1,567 @@
+html {
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  position: relative !important;
+  top: 0;
+
+}
+
+.container .row {
+  position: relative !important;
+  top: 0;
+  height: auto;
+  margin-bottom: 250px !important;
+
+}
+
+.row .col-lg-7 {
+  position: relative !important;
+  bottom: 50px;
+}
+
+.row .col-lg-7 div {
+  position: relative !important;
+  bottom: 50px;
+}
+
+.row .col-lg-7 div .heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 30px;
+  top: 0px;
+}
+
+.row .col-lg-7 div .heading div {
+  position: relative;
+  top: 20px;
+}
+
+.row .col-lg-7 div h3 {
+  margin: 0px 0px;
+  position: relative;
+  bottom: 150px;
+  width: 800px;
+}
+
+.row .col-lg-7 div .heading img {
+  width: 100%;
+  height: 100%;
+  margin: 35px;
+  position: relative;
+  bottom: 100px;
+  right: 70px;
+}
+
+.row .col-lg-7 div .heading div h4 {
+  font-size: 25px;
+  margin-left: 10px;
+  color: #908e8e;
+  margin-top: -120px;
+  margin-left: -100px;
+}
+
+.row .col-lg-7 div .heading div h4 span {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #908e8e;
+}
+
+.row .col-lg-7 div .heading div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  position: relative;
+  right: 165px;
+}
+
+.row .col-lg-7 div .heading div div span {
+  position: relative;
+  bottom: 70px;
+  margin-left: 40px;
+}
+
+.row .col-lg-7 div .heading div button {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 80px;
+  right: 100px;
+}
+
+.row .heading div button:hover {
+  background-color: #e8e8e8;
+}
+
+.row h1 {
+  font-size: 25px;
+}
+
+.row .col-lg-7 {
+  height: 650px;
+}
+
+.row .col-lg-7 .Kiwi {
+  font-size: 15px;
+  width: 650px !important;
+  position: relative;
+  right: 50px;
+}
+
+.row .col-lg-7 .Kiwi h2 {
+  font-size: 15px;
+  width: 100%;
+}
+
+.row .col-lg-7 span .aboutMe {
+  border-bottom: 1px solid black;
+  position: relative;
+  top: 30px;
+}
+
+.row .col-lg-7 div .skill {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: flex-start;
+  width: 800px !important;
+  text-align: left;
+  height: 200px;
+  position: relative;
+  right: 50px;
+
+}
+
+.row .col-lg-7 div .skill h6 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.row .col-lg-7 div .skill .skillSet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 60px;
+  height: 100px;
+  width: 750px !important;
+}
+
+.row .col-lg-7 .skill .skillSet .skillsubset {
+  width: auto;
+  height: 30px;
+  background-color: #ededed;
+  margin: 0px 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.row .col-lg-5 {
+  position: sticky !important;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  height: 550px;
+}
+
+.row .col-lg-5 .Buy {
+  left: 200px;
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  height: 435px;
+}
+
+.row .col-lg-5 .Buy div p {
+  left: 10px;
+  position: relative !important;
+}
+
+.row .col-lg-5 .Buy div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row .col-lg-5 .Buy .PriceSelect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: red;
+}
+
+.row .col-lg-5 .Buy .PriceSelect button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+.row .col-lg-5 .Buy div div {
+  height: 20px;
+  margin: 20px 0px;
+}
+
+/* .row .Buy div div #plan{
+    position: relative;
+  margin: 70px 5px !important;
+    font-size: 18px;
+    background-color: red;
+  } */
+.row .col-lg-5 .Buy button#purchase {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 100px;
+}
+
+.row .col-lg-5 .Buy #Compare {
+  width: 100%;
+  height: 50px;
+  color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#Contact {
+  width: 300px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+  position: sticky !important;
+  color: black;
+  top: 50px !important;
+  margin-left: 400px;
+
+}
+
+#Contact:hover {
+  background-color: rgb(91, 89, 89);
+  color: white;
+}
+
+.Rated {
+  width: 700px !important;
+  position: relative;
+  top: 0px;
+}
+
+.Rated .RatedInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 600px !important;
+  margin-top: 50px;
+  height: 300px !important;
+}
+
+.Rated .RatedInner div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.row .Rated .RatedInner div img {
+  width: 75px;
+  height: 75px;
+}
+
+.row .Rated .RatedInner div div {
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  width: 550px;
+  height: 50px;
+}
+
+.row .PeopleLove {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  width: 60%;
+  height: 200px;
+  /*missing high*/
+}
+
+.row .PeopleLove div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.row .PeopleLove h5 {
+  margin-right: 20px;
+}
+
+.row .PeopleLove div span {
+  color: green;
+}
+
+.row .PeopleLove .slider {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  bottom: 100px;
+  right: 70px;
+}
+
+.row .PeopleLove .slider div {
+  height: 150px;
+  width: 100%;
+}
+
+.row .PeopleLove .slider div img {
+  height: 150px;
+
+}
+
+.aboutSeller {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.aboutSeller img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 30px;
+}
+
+div .aboutSeller div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div .aboutSeller div button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+div .aboutSeller div h3 {
+  font-size: 18px;
+}
+
+div .aboutSeller div h3 span {
+  margin-left: 15px;
+  color: gray;
+}
+
+#more {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+.aboutPig {
+  position: relative;
+  top: 150px;
+  display: flex;
+  height: 100px;
+  width: 850px;
+  left: 50px;
+  /*missing high*/
+  flex-direction: column !important;
+  /*missing important*/
+  justify-content: center;
+  align-items: flex-start !important;
+  /* change from center to flex-start and missing important*/
+}
+
+.aboutPig h3 {
+  font-size: 20px;
+}
+
+.aboutPig p {
+  height: 30px;
+}
+
+.Group {
+  position: relative;
+  top: -80px;
+  z-index: 0;
+}
+
+.imgGroup {
+  position: relative;
+  top: 0px;
+  /*150 too high*/
+  height: 100px;
+  /*missing height*/
+}
+
+.imgGroup img {
+  width: 100px;
+  height: 70px;
+  margin: 7px;
+  position: relative;
+  top: 170px;
+}
+
+.Group .Details {
+
+  width: 700px !important;
+  height: 30px !important;
+  position: relative;
+  top: 240px;
+  /*600 is too high*/
+  right: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Group .Details h6 {
+
+  margin: 0px 10px;
+}
+
+.Group .Details span {
+  position: relative;
+  left: 50px;
+  bottom: 20px;
+  margin: 0px 10px;
+}
+
+.compare {
+  position: relative;
+  top: 200px;
+  /*550 too high*/
+  right: 200px;
+  height: 500px;
+  /*missing height*/
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.compare h1 {
+  position: relative;
+  right: 280px;
+}
+
+.compare table {
+  position: relative;
+  left: 170px !important;
+  top: 100px;
+  width: 800px;
+}
+
+.compare .text-start .package {
+  position: relative;
+
+  width: 180px;
+}
+
+.compare .text-start {
+  position: relative;
+  width: 700px;
+}
+
+.compare .text-justify {
+  font-size: 14px;
+}
+
+
+.compare .text-center {
+  position: relative;
+
+  width: 100%;
+}
+
+.compare .text-center tr {
+  position: relative;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100% !important;
+}
+
+.compare .text-center .tableRow td {
+  position: relative;
+  text-align: center;
+  width: 1400px !important;
+}
+
+.compare .text-center .tableRow th {
+  font-size: 12px !important;
+  position: relative;
+  text-align: center;
+  width: 100% !important;
+}
+
+.recommend {
+  position: relative;
+  top: 240px;
+  /*600 is too high*/
+  height: 250px;
+  /*missing height*/
+  display: flex;
+  flex-direction: column !important;
+  /*mssing important*/
+  justify-content: center;
+  align-items: flex-start !important;
+  /*mssing important*/
+  left: 70px;
+  z-index: 99;
+}
+
+.recommend div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  right: 60px;
+}
+
+.recommend div img {
+  width: 170px;
+  height: 170px;
+}

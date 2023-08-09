@@ -1,0 +1,374 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 100;
+  position: fixed !important;
+  top: 0;
+  height: 80px;
+}
+.nav .container {
+  position: relative;
+  top: -50px;
+}
+.nav .container .container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .container .container-fluid .fiverr {
+  position: relative;
+  right: 20px;
+  height: 35px;
+  top: 5px;
+  margin-bottom: 15px;
+  color: white;
+}
+.nav .container .container-fluid .fiverr.hover {
+  color: black;
+}
+.nav .container .container-fluid .fiverrSearch {
+  position: relative;
+  left: 13px;
+  width: 600px;
+  height: 44px;
+  opacity: 0;
+  z-index: -1;
+}
+.nav .container .container-fluid .fiverrSearch.hover {
+  position: relative;
+  left: 13px;
+  width: 600px;
+  font-size: 20px;
+  height: 44px;
+  opacity: 1;
+  z-index: 1;
+}
+.nav .container .container-fluid .searchIcon {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 12px;
+  opacity: 0;
+}
+.nav .container .container-fluid .searchIcon.hover {
+  opacity: 1;
+}
+.nav .container .container-fluid .navbar-nav {
+  position: relative;
+  left: 8%;
+}
+.nav .container .container-fluid .navbar-nav li .nav-link {
+  color: white;
+}
+.nav .container .container-fluid .navbar-nav li .nav-link.hover {
+  color: black;
+}
+.nav .container .container-fluid .navbar-nav button:hover {
+  background-color: green;
+  transition: 0.4s;
+  color: white;
+}
+.nav .container .container-fluid .button {
+  width: 70px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+}
+.nav .container .container-fluid .button.hover {
+  color: green;
+  border-color: green;
+}
+.nav .container .small {
+  opacity: 0;
+  z-index: -100;
+  position: relative !important;
+  margin-bottom: 8px;
+}
+.nav .container .small .container-fluid-mini {
+  position: relative;
+  color: black;
+}
+.nav .container .small .container-fluid-mini .mini {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  color: black;
+  font-size: 17px;
+  width: 126%;
+  background-color: transparent;
+  position: relative;
+  right: 100px;
+}
+.nav .container .small .container-fluid-mini .mini .link:hover {
+  border-bottom: 2px solid rgb(13, 190, 13);
+}
+.nav .container .small .container-fluid-mini div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav .container .small.hover {
+  position: fixed !important;
+  margin-top: 140px;
+  width: 100%;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  z-index: 99;
+  transition: 0.5s;
+}
+
+.nav.hover {
+  background-color: white;
+  transition: 0.5s;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1500px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&dispay=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    position: fixed !important;
+    top: 0;
+    height: 80px;
+  }
+  .nav .container {
+    position: relative;
+    top: -50px;
+  }
+  .nav .container .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav .container .container-fluid .fiverr {
+    position: relative;
+    right: 20px;
+    height: 35px;
+    top: 5px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  .nav .container .container-fluid .fiverr.hover {
+    color: black;
+  }
+  .nav .container .container-fluid .fiverrSearch {
+    position: relative;
+    left: 13px;
+    width: 600px;
+    height: 44px;
+    opacity: 0;
+    z-index: -1;
+  }
+  .nav .container .container-fluid .fiverrSearch.hover {
+    position: relative;
+    left: 13px;
+    width: 600px;
+    font-size: 20px;
+    height: 44px;
+    opacity: 1;
+    z-index: 1;
+  }
+  .nav .container .container-fluid .searchIcon {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12px;
+    opacity: 0;
+  }
+  .nav .container .container-fluid .searchIcon.hover {
+    opacity: 1;
+  }
+  .nav .container .container-fluid .navbar-nav {
+    position: relative;
+    left: 8%;
+  }
+  .nav .container .container-fluid .navbar-nav li .nav-link {
+    color: white;
+  }
+  .nav .container .container-fluid .navbar-nav li .nav-link.hover {
+    color: black;
+  }
+  .nav .container .container-fluid .navbar-nav button:hover {
+    background-color: green;
+    transition: 0.4s;
+    color: white;
+  }
+  .nav .container .container-fluid .button {
+    width: 70px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+  }
+  .nav .container .container-fluid .button.hover {
+    color: green;
+    border-color: green;
+  }
+  .nav .container .small {
+    opacity: 0;
+    z-index: -100;
+    position: relative !important;
+    margin-bottom: 8px;
+  }
+  .nav .container .small .container-fluid-mini {
+    overflow-y: hidden;
+    position: relative;
+    max-width: 100%;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    padding: 13px;
+    background: #fff;
+  }
+  .nav .container .small .container-fluid-mini .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+  }
+  .nav .container .small .container-fluid-mini .icon:first-child {
+    left: 0;
+    display: none;
+    background: linear-gradient(90deg, white);
+  }
+  .nav .container .small .container-fluid-mini .icon:first-child i {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+  }
+  .nav .container .small .container-fluid-mini .icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, white);
+  }
+  .nav .container .small .container-fluid-mini .icon:last-child i {
+    position: absolute;
+    bottom: 5px;
+    margin-right: 15px;
+  }
+  .nav .container .small .container-fluid-mini .icon i {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    background: #d8d5f2;
+    margin-top: 33px;
+  }
+  .nav .container .small .container-fluid-mini .icon i:hover {
+    background: #efedfb;
+  }
+  .nav .container .small .container-fluid-mini .mini {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: black;
+    font-size: 17px;
+    width: 126%;
+    background-color: transparent;
+    position: relative;
+    right: 100px;
+    gap: 12px;
+    list-style: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  .nav .container .small .container-fluid-mini .mini .tab {
+    cursor: pointer;
+    font-size: 1.18rem;
+    white-space: nowrap;
+    padding: 13px 20px;
+    border-radius: 30px;
+  }
+  .nav .container .small .container-fluid-mini .mini .tab .link:hover {
+    border-bottom: 2px solid rgb(13, 190, 13);
+  }
+  .nav .container .small .container-fluid-mini .mini.dragging {
+    scroll-behavior: auto;
+    cursor: grab;
+  }
+  .nav .container .small .container-fluid-mini .mini.dragging .tab {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+  .nav .container .small .container-fluid-mini .mini.dragging .tab.active {
+    color: #fff;
+    background: #5372F0;
+    border-color: transparent;
+  }
+  .nav .container .small .container-fluid-mini div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .nav .container .small.hover {
+    position: fixed !important;
+    margin-top: 140px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    z-index: 99;
+    transition: 0.5s;
+  }
+  .nav.hover {
+    background-color: white;
+    transition: 0.5s;
+    z-index: 99;
+  }
+}/*# sourceMappingURL=Nav.css.map */

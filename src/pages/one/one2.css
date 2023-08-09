@@ -1,0 +1,321 @@
+html {
+  height: 2999px;
+  width: 100%;
+}
+.row .col-lg-7 div{
+display: flex;
+flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row .col-lg-7 div .heading{
+display: flex;
+flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row .col-lg-7 div h3{
+  margin: 20px 0px;
+}
+.row .col-lg-7 div .heading img{
+width: 100px;
+  height: 100px;
+  margin: 35px;
+}
+
+.row .col-lg-7 div .heading div h4 span{
+font-size: 15px;
+  margin-left: 10px;
+  color: #908e8e;
+}
+.row .col-lg-7 div .heading div button{
+border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 3px;
+
+}
+.row .col-lg-7 div .heading div button:hover{
+  background-color: #e8e8e8;
+}
+.row h1{
+font-size: 25px;
+}
+
+.row .col-lg-7 div.Kiwi{
+margin-top: 100px;
+width: 100%;
+}
+.row .col-lg-7 div div h2{
+font-size: 15px;
+}
+.row .col-lg-7 div span .aboutMe{
+border-bottom: 1px solid black;
+position: relative;
+  top: 30px;
+}
+.row .col-lg-7 div .skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 100px;
+}
+.row .col-lg-7 div .skill h6{
+margin-top: 40px;
+}
+
+.row .col-lg-7 div .skill .skillSet{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: 100px;
+
+}
+.row .col-lg-7 div .skill .skillSet .skillsubset{
+  width: auto;
+  height: 30px;
+  background-color: #ededed;
+margin: 0px 5px;
+padding: 10px 15px;
+  border-radius: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.row .buy{
+  margin-top: 250px;
+  position: sticky !important;
+  top:150px;
+}
+.row .buy .Buy{
+display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  height: 450px;
+}
+.row .buy .Buy div div{
+display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.row .buy .Buy .PriceSelect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px; 
+  width: 100%;
+  background-color: red;
+}
+.row .buy .Buy .PriceSelect button{
+width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+.row .buy .Buy div div{
+height: 20px;
+margin: 20px 0px;
+}
+/* .row .Buy div div #plan{
+  position: relative;
+margin: 70px 5px !important;
+  font-size: 18px;
+  background-color: red;
+} */
+.row .buy .Buy button#purchase{
+width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+}
+.row .buy .Buy #Compare{
+width: 100%;
+  height: 50px;
+  color: green;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#Contact{
+width: 420px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+  position: sticky !important;
+  color: black;
+  margin-top: 50px;
+}
+#Contact:hover{
+  background-color: rgb(91, 89, 89);
+  color: white;
+}
+.row .Rated .RatedInner{
+  width: 100%;
+    position: relative;
+  top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row .Rated .RatedInner div{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.row .Rated .RatedInner div div{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+}
+.row .Rated .RatedInner div img{
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+
+
+
+.row .PeopleLove div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 300px;
+  width: 100%;
+}
+.row .PeopleLove div .PeopleInner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+width: 100%;
+}
+.row .PeopleLove div .PeopleInner h5{
+
+  width: 130%;
+}
+.row .PeopleLove div .PeopleInner span{
+  color: green;
+  position: relative;
+  left: 100%;
+  width: 100%;
+}
+.row .PeopleLove div .PeopleInner .slider div{
+  height: 50px;
+  width: 100%;
+}
+
+.row .PeopleLove div .PeopleInner .slider div img{
+  height: 150px;
+
+}
+
+.aboutSeller{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aboutSeller img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 30px;
+}
+div .aboutSeller div{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+div .aboutSeller div button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+div .aboutSeller div h3{
+font-size: 18px;
+}
+div .aboutSeller div h3 span{
+margin-left: 15px;
+  color: gray;
+}
+div .Details{
+width: 800px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+div .Details h6{
+
+  margin: 0px 10px;
+
+}
+
+#more {display: none;}
+#more2 {display: none;}
+
+.aboutPig{
+  position: relative;
+  top: 1000px;
+}
+.aboutPig h3{
+  font-size: 20px;
+}
+.imgGroup{
+
+    position: relative;
+  top: 1200px;
+}
+.imgGroup img{
+  width: 100px;
+  height: 70px;
+  margin: 7px;
+
+}
+.compare{
+  position: relative;
+  top: 1000px;
+}
+.recommend{
+        display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  top: 700px;
+}
+.recommend div{
+        display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recommend div img{
+  width: 170px;
+  height: 170px;
+}
+

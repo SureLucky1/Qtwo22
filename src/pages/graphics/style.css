@@ -1,0 +1,178 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.container .headerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+.container .divder {
+  margin: 60px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .divder div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container .divder div button {
+  margin: 0px 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.container h1.Explore {
+  position: relative;
+  left: 50px;
+}
+.container .row {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.container .row .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.container .row .header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container .row .header div h1 {
+  margin: 20px 0px;
+}
+.container .row div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.container .row div div {
+  width: 400px;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+  align-items: center;
+}
+
+.Third {
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.Third .container {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  width: 100%;
+}
+.Third .container .two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.Third .container .two .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100%;
+}
+.Third .container .two .header div {
+  margin: 30px 250px;
+}
+.Third .container .two .header div h1 {
+  margin: 30px 0px;
+  font-size: 25px;
+}
+.Third .container h1.related {
+  position: relative;
+  right: 650px;
+}
+
+/*--Fourth--*/
+.fourth {
+  width: 100%;
+}
+.fourth .container {
+  position: relative;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth .container h1 {
+  text-align: center;
+  margin: 20px 0px;
+  position: relative;
+  right: 640px;
+}
+.fourth .container div h4 {
+  margin: 40px 0px;
+  position: relative;
+  right: 80%;
+}
+
+/*five*/
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+.five div {
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.five div span {
+  width: 200px;
+  height: auto;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background-color: gray;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/*footer*/
+.footer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

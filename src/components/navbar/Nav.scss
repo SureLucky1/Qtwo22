@@ -1,0 +1,768 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 50;
+    position: fixed !important;
+    top: 0;
+    height: 80px;
+
+    .container {
+        position: relative;
+        top: -50px;
+
+        .container-fluid {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .fiverr {
+                position: relative;
+                right: 20px;
+                height: 35px;
+                top: 5px;
+                margin-bottom: 15px;
+                color: white;
+            }
+
+            .fiverr.hover {
+                color: black;
+            }
+
+            .fiverrSearch {
+                position: relative;
+                left: 13px;
+                width: 600px;
+                height: 44px;
+                opacity: 0;
+                z-index: -1;
+            }
+
+            .fiverrSearch.hover {
+                position: relative;
+                left: 13px;
+                max-width: 40vw;
+                font-size: 20px;
+                height: 44px;
+                opacity: 1;
+                z-index: 1;
+            }
+
+
+
+            .searchIcon {
+                background-color: black;
+                color: white;
+                border-radius: 3px;
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                left: 12px;
+                opacity: 0;
+            }
+
+            .searchIcon.hover {
+                opacity: 1;
+            }
+
+            .navbar-nav {
+                position: relative;
+                left: 8%;
+                width: 40vw;
+
+                li {
+                    .nav-link {
+                        color: white;
+
+                    }
+
+                    .nav-link.hover {
+                        color: black;
+
+                    }
+                }
+
+                button {
+                    &:hover {
+                        background-color: green;
+                        transition: 0.4s;
+                        color: white;
+                    }
+                }
+            }
+
+            .button {
+                width: 70px;
+                height: 40px;
+                background-color: transparent;
+                color: white;
+            }
+
+            .button.hover {
+                color: green;
+                border-color: green;
+            }
+        }
+
+        .small {
+            opacity: 0;
+            z-index: -100;
+            position: relative !important;
+            margin-bottom: 8px;
+            width: 100vw;
+            background-color: white;
+
+            .container-fluid-mini {
+                position: relative;
+                color: black;
+
+
+
+                .mini {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 40px;
+                    color: black;
+                    font-size: 17px;
+                    width: 126%;
+                    background-color: transparent;
+                    position: relative;
+                    right: 100px;
+
+                    .link {
+                        &:hover {
+                            border-bottom: 2px solid rgb(13, 190, 13);
+                        }
+                    }
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+            }
+        }
+
+        .small.hover {
+            position: fixed !important;
+            margin-top: 140px;
+            max-width: 100%;
+            opacity: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            z-index: 50;
+            transition: 0.5s;
+            background-color: #fff;
+        }
+    }
+}
+
+.nav.hover {
+    background-color: white;
+    transition: 0.5s;
+    z-index: 50;
+}
+
+@media screen and (max-width: 1400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&dispay=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        z-index: 100;
+        position: fixed !important;
+        top: 0;
+        height: 115px;
+
+        .container {
+            position: relative;
+            top: -50px;
+
+            .navbar-light {
+                position: fixed;
+                left: 4%;
+                width: 100%;
+
+                .container-fluid {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .fiverr {
+                        position: relative;
+                        right: 20px;
+                        height: 35px;
+                        top: 5px;
+                        margin-bottom: 15px;
+                        color: white;
+                    }
+
+                    .fiverr.hover {
+                        color: black;
+                    }
+
+                    .fiverrSearch {
+                        position: relative;
+                        left: 13px;
+                        width: 35vw;
+                        height: 44px;
+                        opacity: 0;
+                        z-index: -1;
+                    }
+
+                    .fiverrSearch.hover {
+                        position: relative;
+                        left: 13px;
+                        overflow-y: hidden;
+                        font-size: 20px;
+                        height: 44px;
+                        opacity: 1;
+                        z-index: 1;
+
+                    }
+
+
+
+                    .searchIcon {
+                        background-color: black;
+                        color: white;
+                        border-radius: 3px;
+                        width: 45px;
+                        height: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        left: 12px;
+                        opacity: 0;
+                    }
+
+                    .searchIcon.hover {
+                        opacity: 1;
+                    }
+
+                    .navbar-nav {
+                        position: relative;
+                        left: 2%;
+                        width: 80vw;
+
+                        li {
+
+
+                            .nav-link {
+                                color: white;
+                            }
+
+                            .nav-link.hover {
+                                color: black;
+                            }
+                        }
+
+                        button {
+                            &:hover {
+                                background-color: green;
+                                transition: 0.4s;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .button {
+                        width: 70px;
+                        height: 40px;
+                        background-color: transparent;
+                        color: white;
+                    }
+
+                    .button.hover {
+                        color: green;
+                        border-color: green;
+                    }
+                }
+            }
+
+            .small {
+                opacity: 0;
+                width: 100vw;
+                z-index: -100;
+                position: relative !important;
+                height: 50px;
+
+                .container-fluid-mini {
+                    overflow-y: hidden;
+                    position: relative;
+                    max-width: 100%;
+                    color: black;
+                    position: relative;
+                    overflow: hidden;
+                    padding: 10px 13.5vw 10px 100px; //上、右、下、左
+                    background: #fff;
+                    right: 0px;
+
+                    .icon {
+                        position: absolute;
+                        top: 0;
+                        height: 100%;
+                        width: 120px;
+                        display: flex;
+                        align-items: center;
+                        z-index: 60;
+
+                        &:first-child {
+                            left: 0;
+                            display: none;
+
+
+                            i {
+                                position: absolute;
+                                bottom: 10px;
+                                margin-right: 50px;
+                            }
+                        }
+
+                        &:last-child {
+                            right: 0;
+                            justify-content: flex-end;
+                            z-index: 99;
+
+                            i {
+                                position: absolute;
+                                bottom: 10px;
+                                margin-left: 100px;
+                                background-color: white;
+                            }
+                        }
+
+                        i {
+                            width: 55px;
+                            height: 55px;
+                            cursor: pointer;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            line-height: 55px;
+                            border-radius: 50%;
+                            // background: #d8d5f2;
+                            margin-top: 33px;
+
+                            // &:hover {
+                            //     background: #efedfb;
+                            // }
+                        }
+                    }
+
+                    .mini {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 50px;
+                        color: black;
+                        font-size: 17px;
+                        background-color: transparent;
+                        position: relative;
+                        right: 150px;
+                        padding-right: 40px !important;
+                        //tab area
+                        gap: 12px;
+                        list-style: none;
+                        overflow-x: hidden;
+                        scroll-behavior: smooth;
+                        margin-left: 100px;
+
+                        .tab {
+
+                            .link {
+                                &:hover {
+                                    border-bottom: 2px solid rgb(13, 190, 13);
+                                }
+                            }
+
+
+                            cursor: pointer;
+                            font-size: 1.18rem;
+                            white-space: nowrap;
+                            padding: 13px 10px;
+                            border-radius: 30px;
+
+                        }
+                    }
+
+                    .mini.dragging {
+                        scroll-behavior: none;
+                        cursor: grab;
+
+                        .tab {
+                            user-select: none;
+                        }
+
+                        .tab.active {
+
+
+                            border-color: transparent;
+                        }
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .small.hover {
+                position: fixed !important;
+                margin-top: 140px;
+                width: 100%;
+
+                overflow: hidden;
+                padding-right: 20px;
+                opacity: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+                height: 60px;
+                z-index: 50;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .nav.hover {
+        background-color: white;
+        transition: 0.5s;
+        z-index: 50;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&dispay=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 50;
+        position: fixed !important;
+        top: 0;
+        height: 100px;
+
+        .container {
+            position: relative;
+            top: -50px;
+
+            .navbar-light {
+                position: fixed;
+                left: 6%;
+
+                .container-fluid {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .another {
+                        width: 2vw !important;
+                    }
+
+                    .fiverr {
+                        position: relative;
+                        right: 20px;
+                        height: 35px;
+                        top: 5px;
+                        margin-bottom: 15px;
+                        color: white;
+                    }
+
+                    .fiverr.hover {
+                        color: black;
+                    }
+
+                    .fiverrSearch {
+                        position: relative;
+                        left: 13px;
+                        width: 60vw;
+                        height: 44px;
+                        opacity: 0;
+                        z-index: -1;
+                        overflow: hidden !important;
+
+                    }
+
+                    .fiverrSearch.hover {
+                        position: relative;
+                        left: 13px;
+                        width: 60vw;
+                        font-size: 20px;
+                        height: 44px;
+                        opacity: 1;
+                        z-index: 1;
+                    }
+
+
+
+                    .searchIcon {
+                        background-color: black;
+                        color: white;
+                        border-radius: 3px;
+                        width: 45px;
+                        height: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        left: 12px;
+                        opacity: 0;
+                    }
+
+                    .searchIcon.hover {
+                        opacity: 1;
+                    }
+
+                    .navbar-nav {
+                        position: relative;
+                        left: 3%;
+                        width: 60vw;
+
+                        li {
+                            .nav-link {
+                                color: white;
+
+                            }
+
+                            .nav-link.hover {
+                                color: black;
+                            }
+                        }
+
+                        button {
+                            &:hover {
+                                background-color: green;
+                                transition: 0.4s;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .button {
+                        width: 70px;
+                        height: 40px;
+                        background-color: transparent;
+                        color: white;
+                    }
+
+                    .button.hover {
+                        color: green;
+                        border-color: green;
+                    }
+                }
+            }
+
+            .small {
+                opacity: 0;
+                z-index: -100;
+                height: 20px;
+
+                .container-fluid-mini {
+                    overflow-y: hidden;
+                    position: relative;
+                    color: black;
+                    position: relative;
+                    padding: 13px 50px !important;
+                    width: 100vw;
+                    background: #fff;
+
+
+                    .icon {
+                        position: absolute;
+                        height: 100%;
+                        width: 120px;
+                        display: flex;
+                        align-items: center;
+                        z-index: 70;
+
+                        &:first-child {
+                            left: 0;
+
+
+
+                            i {
+                                position: absolute;
+                                bottom: 10px;
+                                margin-right: 50px;
+                            }
+                        }
+
+                        &:last-child {
+                            right: 0;
+                            justify-content: flex-end;
+
+
+                            i {
+                                position: absolute;
+                                bottom: 10px;
+                                margin-left: 80px;
+                            }
+                        }
+
+                        i {
+                            width: 55px;
+                            height: 55px;
+                            cursor: pointer;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            line-height: 55px;
+                            border-radius: 50%;
+
+                            margin-top: 33px;
+
+                        }
+                    }
+
+                    .mini {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 50px;
+                        color: black;
+                        font-size: 15px;
+                        background-color: transparent;
+                        position: relative;
+                        right: 100px;
+                        padding-right: 150px !important;
+                        //tab area
+                        gap: -0px;
+                        list-style: none;
+                        overflow-x: hidden;
+                        scroll-behavior: smooth;
+                        margin-left: 100px;
+
+                        .tab {
+
+                            .link {
+                                font-size: 18px !important;
+
+                                &:hover {
+                                    border-bottom: 2px solid rgb(13, 190, 13);
+                                }
+                            }
+
+
+                            cursor: pointer;
+                            font-size: 1.18rem;
+                            white-space: nowrap;
+                            padding: 13px 20px;
+                            border-radius: 30px;
+
+                        }
+                    }
+
+                    .mini.dragging {
+                        scroll-behavior: none;
+                        cursor: grab;
+
+                        .tab {
+                            user-select: none;
+                        }
+
+                        .tab.active {
+
+                            border-color: transparent;
+                        }
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                }
+            }
+
+            .small.hover {
+                margin-top: 140px;
+                width: 100%;
+                opacity: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding-right: 30px;
+                height: 60px;
+                z-index: 50;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .nav.hover {
+        background-color: white;
+        transition: 0.5s;
+        z-index: 55;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bg-body-tertiary {
+        position: fixed;
+        left: 0%;
+        z-index: 99;
+        width: 100%;
+        color: black;
+        background-color: white;
+    }
+}

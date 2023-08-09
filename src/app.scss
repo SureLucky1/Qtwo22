@@ -1,0 +1,17 @@
+* {
+  height: auto;
+  width: auto;
+
+
+  .app {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
